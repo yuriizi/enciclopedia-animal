@@ -52,7 +52,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-8 mt-12">
+    <footer class="bg-primary text-white py-8 mt-12">
         <div class="container mx-auto px-4 text-center">
             <p>&copy; {{ date('Y') }} Enciclopédia Animal. Todos os direitos reservados.</p>
         </div>

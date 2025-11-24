@@ -8,6 +8,11 @@
         <div class="bg-primary-700 text-white p-6">
             <div class="flex justify-between items-start">
                 <div>
+                    <div class="mb-4">
+                        <a href="{{ url()->previous() }}" class="inline-flex items-center px-3 py-1.5 bg-white text-primary rounded shadow-sm hover:bg-primary-700 hover:text-white transition">
+                            <i class="fas fa-arrow-left mr-2"></i>Voltar
+                        </a>
+                    </div>
                     <h1 class="text-3xl font-bold mb-2">{{ $animal->nome_comum }}</h1>
                     <p class="text-xl italic mb-4">{{ $animal->nome_cientifico }}</p>
                     @if ($animal->nome_ingles)
