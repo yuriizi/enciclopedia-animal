@@ -63,7 +63,7 @@
                     <div>
                         <h1 class="text-3xl font-bold">
                             <a href="{{ route('animais.index') }}" class="hover:opacity-80 transition">
-                                <i class="fas fa-paw mr-2"></i>Enciclopédia Animal
+                                Enciclopédia Animal
                             </a>
                         </h1>
                         <p class="text-sm text-gray-200">COP15 - Convenção sobre Diversidade Biológica</p>
